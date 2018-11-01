@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Mr Potato Head</string>
+    <string name="checkbox">CheckBox</string>
 </resources>
