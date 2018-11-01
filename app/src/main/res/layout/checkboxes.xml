@@ -1,0 +1,82 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:id="@+id/arms_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/arms" />
+
+    <CheckBox
+        android:id="@+id/ears_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/ears" />
+
+    <CheckBox
+        android:id="@+id/eyebrows_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/eyebrows" />
+
+    <CheckBox
+        android:id="@+id/eyes_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/eyes" />
+
+    <CheckBox
+        android:id="@+id/glasses_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/glasses" />
+
+    <CheckBox
+        android:id="@+id/hat_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/hat" />
+
+    <CheckBox
+        android:id="@+id/mouth_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/mouth" />
+
+    <CheckBox
+        android:id="@+id/mustache_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/mustache" />
+
+    <CheckBox
+        android:id="@+id/nose_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/nose" />
+
+    <CheckBox
+        android:id="@+id/shoes_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:onClick="toggle"
+        android:text="@string/shoes" />
+</merge>
