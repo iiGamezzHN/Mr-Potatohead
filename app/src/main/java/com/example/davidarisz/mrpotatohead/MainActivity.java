@@ -40,18 +40,19 @@ public class MainActivity extends AppCompatActivity {
      */
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+
         GridLayout layout = findViewById(R.id.gridLayout);
         ArrayList<String> boxes = new ArrayList<>();
 
         for(int i = 0; i < layout.getChildCount(); i++) {
             CheckBox checkbox = (CheckBox) layout.getChildAt(i);
-            if (checkbox.isChecked()) {
-                boxes.add(checkbox.getText().toString());
+            if (checkbox.isChecked()) {                     // If checkbox is checked
+                boxes.add(checkbox.getText().toString());   // Add the box to an ArrayList
             }
         }
 
-        savedInstanceState.putStringArrayList(boxesTag, boxes);
-        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putStringArrayList(boxesTag, boxes); // Save the ArrayList
     }
 
     /**
